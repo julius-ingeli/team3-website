@@ -1,0 +1,100 @@
+body {
+    background-color: #E7DFC6;
+    color: #000;
+}
+
+.header {
+    background-color: #9E3E33;
+    /* width: 100%;
+    height: 200px; */
+}
+
+footer {
+    background-color: #9E3E33;
+    width: 100%;
+}
+.header .nav {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.header .nav-item:hover{
+    background-color: #822A20;
+}
+
+.schedule-container {
+    display: grid;
+    gap: 10px;
+    max-width: 1200px;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.Schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.Schedule th, .Schedule td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.Schedule th {
+    background-color: #f2f2f2;
+}
+
+.Schedule th:first-child, .Schedule td:first-child {
+    position: sticky;
+    left: 0;
+}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+}
+
+.col-sticky {
+    position: sticky;
+}
+
+
+.rules{
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+}
+
+.aboutUs{
+    text-align: center;
+}
+
+h1.sectionTitle{
+    color: #966F5D;
+}
+
+p.ruleIntroText{
+    font-weight: 600;
+}
+
+p.ruleOutroText{
+    font-weight: 600;
+    max-width: 958px;
+}
+
+.answerInline{
+    display: inline;
+}
+
+p.answerInline{
+    font-size: 24px;
+}
+
+a.answerInline{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
