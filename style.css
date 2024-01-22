@@ -149,3 +149,8 @@ a.answerInline{
 .row {
     max-width: 100% !important;
 }
+.order-button {
+    background-color: #966F5D;
+    border-radius: 10px;
+    min-height: 40px;
+}
