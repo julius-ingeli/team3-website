@@ -98,3 +98,9 @@ a.answerInline{
     font-weight: 600;
     color: #000000;
 }
+
+.ticket {
+    background-color: #f1bfb1;
+    height: 500px;
+    border-radius: 20px;
+}
