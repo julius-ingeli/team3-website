@@ -62,6 +62,20 @@ footer {
 }
 
 
+.lineUp{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.lineupOther{
+    font-weight: 500;
+}
+
+.artistImg{
+    max-width: 400px;
+}
+
 .rules{
     align-items: center;
     text-align: center;
@@ -72,7 +86,7 @@ footer {
     text-align: center;
 }
 
-h1.sectionTitle{
+h2.sectionTitle{
     color: #966F5D;
 }
 
@@ -103,4 +117,35 @@ a.answerInline{
     background-color: #f1bfb1;
     height: 500px;
     border-radius: 20px;
+}
+
+.h1 {
+    font-size: 40px;
+}
+.About .row .col-md-6 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.filler-row-100 {
+    min-height: 100px;
+    max-width: 100%;
+}
+.filler-row-150 {
+    min-height: 150px;
+    max-width: 100%;
+}
+.filler-row-50 {
+    min-height: 50px;
+    max-width: 100%;
+}
+.filler-row-25 {
+    min-height: 25px;
+    max-width: 100%;
+}
+.filler-row-10 {
+    min-height: 10px;
+    max-width: 100%;
+}
+.row {
+    max-width: 100% !important;
 }
