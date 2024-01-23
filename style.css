@@ -62,6 +62,21 @@ footer {
 }
 
 
+.Merch{
+    align-items: center;
+    text-align: center;
+}
+
+p.merchItem{
+    font-weight: 600;
+}
+
+img.merchItem{
+    width: 100%;
+    align-self: center;
+    padding: 32px;
+}
+
 .lineUp{
     align-items: center;
     align-content: center;
