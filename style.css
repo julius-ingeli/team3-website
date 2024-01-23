@@ -21,46 +21,58 @@ footer {
     background-color: #822A20;
 }
 
+/* SCHEDULE CSS */
 .schedule-container {
-    display: grid;
-    gap: 10px;
-    max-width: 1200px;
-    max-height: 400px;
+    overflow-x: scroll;
     overflow-y: scroll;
-    margin: auto;
+    max-width: 800px;
+    grid-column: 2;
 }
-
-.Schedule table {
+.schedule-align {
+    display: grid;
+    grid-template-columns: 100px 800px 100px;
+}
+.schedule-table {
     width: 100%;
-    border-collapse: collapse;
     table-layout: auto;
+    grid-column: 2;
+    background-color: #E7DFC6;
 }
-
-.Schedule th, .Schedule td {
-    padding: 15px;
-    border: 1px solid #ddd;
+.schedule-th, .schedule-td {
+    padding: 10px;
     text-align: center;
+    min-width: 100px;
 }
-
-.Schedule th {
-    background-color: #f2f2f2;
+.schedule-td {
+    border: 10px solid transparent;
 }
-
-.Schedule th:first-child, .Schedule td:first-child {
+.schedule-th {
+    border: 0px solid transparent;
+    background-color: #9E3E33;
     position: sticky;
-    left: 0;
+    top: 0;
 }
-
-.rectangle {
-    height: 50px;
-    width: 100px;
-    background-color: #555;
+.main-event {
+    border: 1px solid black;
+    font-weight: 800;
+    background-color: #f1bfb1;
 }
-
-.col-sticky {
+.main-event:hover {
+    background-color: #822A20;
+}
+.reg-event {
+    border: 1px solid black;
+    background-color: #9E3E33;
+}
+.reg-event:hover {
+    background-color: #822A20;
+}
+/* .schedule-td:first-child {
     position: sticky;
-}
+    background-color: red;
+}   <<doesn't stick for some reason>>    */
 
+/* MERCH CSS */
 
 .Merch{
     align-items: center;
@@ -168,4 +180,8 @@ a.answerInline{
     background-color: #966F5D;
     border-radius: 10px;
     min-height: 40px;
+}
+
+.order-button:hover {
+    background-color: #634030;
 }
