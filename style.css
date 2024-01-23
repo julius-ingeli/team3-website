@@ -25,12 +25,19 @@ footer {
 .schedule-container {
     overflow-x: scroll;
     overflow-y: scroll;
-    max-width: 800px;
+    /* max-width: 90%; */
     grid-column: 2;
+	/* hiding scrollbar for Firefox and Edge */
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+/* hiding scrollbar for chrome, safari, opera */
+.schedule-container::-webkit-scrollbar {
+	display: none;
 }
 .schedule-align {
     display: grid;
-    grid-template-columns: 100px 800px 100px;
+    grid-template-columns: 100px 82% 100px;
 }
 .schedule-table {
     width: 100%;
@@ -44,7 +51,7 @@ footer {
     min-width: 100px;
 }
 .schedule-td {
-    border: 10px solid transparent;
+    border: 10px transparent;
 }
 .schedule-th {
     border: 0px solid transparent;
@@ -53,24 +60,27 @@ footer {
     top: 0;
 }
 .main-event {
-    border: 1px solid black;
     font-weight: 800;
     background-color: #f1bfb1;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px gray;
 }
 .main-event:hover {
     background-color: #822A20;
 }
 .reg-event {
-    border: 1px solid black;
     background-color: #9E3E33;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px gray;
 }
 .reg-event:hover {
     background-color: #822A20;
 }
-/* .schedule-td:first-child {
-    position: sticky;
-    background-color: red;
-}   <<doesn't stick for some reason>>    */
+/* <<doesn't stick for some reason>>    */
+.schedule-td:first-child {
+    /* position: sticky; */
+    background-color: #9E3E33;
+}  
 
 /* MERCH CSS */
 
