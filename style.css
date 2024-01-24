@@ -195,3 +195,33 @@ a.answerInline{
 .order-button:hover {
     background-color: #634030;
 }
+
+div .nav-div {
+    right: 19%;
+    top: 50%;
+}
+
+@media (max-width: 1824px){
+    div .nav-div {
+        right: 19%;
+        top: 30%;
+    }
+}
+@media (max-width: 1552px){
+    div .nav-div {
+        right: 19%;
+        top: 21%;
+    }
+}
+@media (max-width: 1400px){
+    div .nav-div {
+        right: 19%;
+        top: 14%;
+    }
+}
+@media (max-width: 1202px){
+    div .nav-div {
+        right: 19%;
+        top: 3%;
+    }
+}
