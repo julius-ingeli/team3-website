@@ -19,6 +19,7 @@ Teamwork practices: Hybrid, sometimes online, sometimes on campus.
 # ASSIGNED PHP FUNCTIONALITIES
 ### Julius Ingeli
 > Administrating the common database for use with the website. 
+> User profile.
 
 ### Filip Danko
 > Ticket purchase page.
