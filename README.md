@@ -1,14 +1,8 @@
-# team3-website
-
 # PROJECT DEFINITION
-
 Website is a page for a jazz festival. The webpage features a home page, events/panels/etc.
 tickets, merch sales, about section and so on.
 
 The target audience should be the attendees to the festival/artists that would like to perform there.
-
-Competitors: <insert here>
-(!https://i.imgur.com/2AgZNzk.png)[]
 
 Color palette: Coffee brown, Cream, Beige, 
 
@@ -16,7 +10,7 @@ Teamwork practices: Hybrid, sometimes online, sometimes on campus.
 
 ---
 
-# FEATURES
+## FEATURES
 - [ ] Feature 1 (Filip Danko): Ticket purchase page
 - [ ] Feature 2 (Mohammed Bin Semaidaa): Countdown until first day of festival
 - [ ] Feature 3 (Julius Ingeli): User Profile
@@ -38,10 +32,17 @@ The log-in page requires a valid e-mail and password combination to log into giv
 ---
 
 ## DATABASE TABLES
+- Table 1 (Julius Ingeli): Users Table (fname, lname, dob, email, password)
+- Table 2 (Filip Danko): Sales Table (order number, total price)
 
-### USERS
-- Cols: fname, lname, dob, email, password
+## CREATED FORMS 
+- Form 1 (Julius Ingeli): Data Update Form | github link | shell link
+Allows users to update information on their user profile.
+- Form 2 (Filip Danko): Billing Information Form | github link | shell link
+Users submit billing information during ticket purchase (card information, address, ...).
+- Form 3 (Oskar Elias): User Sign-Up Form | github link | shell link
+Users submit essential information required for creating their user profile (full name, date of birth, e-mail, password).
 
-### TICKETS
-- Extends users
-- Cols: order number, total price
+## CREATED TABLES
+- Table 1 (Filip Danko): Purchase History Table | github link | shell link
+Shows up on user profile, carrying information about recent purchases (tickets, merchandise).
