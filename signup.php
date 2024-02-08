@@ -17,8 +17,10 @@
 							<div class="col">
 								<label for="email">E-Mail:</label>
 								<input type="text" class="form-control" id="email" placeholder="john.doe@email.com" name="email" required>
-								<label for="phone">Phone:</label>
-								<input type="phone" class="form-control" id="phone" placeholder="+100 123 456 789" name="phone">
+								<label for="password">Password:</label>
+								<input type="text" class="form-control" id="password" placeholder="password1234" name="password">
+								<label for="pwd-verify">Verify Password:</label>
+								<input type="text" class="form-control" id="pwd-verify" placeholder="password1234" name="pwd-verify">
 							</div>
 						</div>
 					</div>
