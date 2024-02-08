@@ -16,7 +16,7 @@ include './db/conn.php'; ?>
 		}
 	</style>
 </head>
-<body>
+<body>        
 	<div style="container">
 		<div style="row">
 			<div style="col">
