@@ -5,6 +5,21 @@
  include_once('header.php');
 ?>
 <body>
+
+<form action="feedback-mailer.PHP" method="post" name="form">
+  <!—- Inside the form, lets put some input fields. -->
+  <input name="name" type="text" placeholder="Your name"/>
+  <br>
+  <input name="email" type="text" placeholder="Email"/>
+  <br>
+  <input size="30" name="header" type="text" placeholder="Subject"/>
+  <br>
+  <textarea cols="32" name="message" rows="5"> Your message
+  </textarea>
+  <br>
+  <!—- Lets add a button that submits this form to the server. -->
+  <input type="submit" value="Submit" />
+</form>
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
