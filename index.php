@@ -2,7 +2,7 @@
 <html>
     <!-- Header -->
 <?php
-include_once('header.php');
+ include_once('header.php');
 ?>
 <body>
     <div class="row filler-row-100">
