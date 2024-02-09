@@ -3,23 +3,28 @@
     <!-- Header -->
 <?php
  include_once('header.php');
+ include 'database.php';
 ?>
 <body>
 
-<form action="feedback-mailer.PHP" method="post" name="form">
-  <!—- Inside the form, lets put some input fields. -->
+<form action="" method="post" name="form">
+  <!-- Inside the form, lets put some input fields. -->
   <input name="name" type="text" placeholder="Your name"/>
   <br>
   <input name="email" type="text" placeholder="Email"/>
   <br>
   <input size="30" name="header" type="text" placeholder="Subject"/>
   <br>
-  <textarea cols="32" name="message" rows="5"> Your message
-  </textarea>
+  <textarea cols="32" name="message" rows="5" placeholder="Your message"></textarea>
   <br>
-  <!—- Lets add a button that submits this form to the server. -->
-  <input type="submit" value="Submit" />
+  <!-- Lets add a button that submits this form to the server. -->
+  <input type="submit" name="submit" value="Submit" />
 </form>
+<?php
+include 'feedback-mailer.php';
+?>
+
+
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
