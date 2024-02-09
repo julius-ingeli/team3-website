@@ -53,3 +53,8 @@ Shows up on user profile, carrying information about recent purchases (tickets, 
 Carries user information with option for empty spaces where user didn't prompt. These can be updated on User Profile.
 - Table 3 (Mohammed Bin Semaidaa): User Feedback Table | github link | shell link  
 Stores user information if signed-in, otherwise just comments and ID.
+
+
+# DATABASE ER DIAGRAM
+
+!()[https://github.com/julius-ingeli/team3-website/blob/main/imgs/dbscreenshot.png]
