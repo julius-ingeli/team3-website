@@ -57,4 +57,4 @@ Stores user information if signed-in, otherwise just comments and ID.
 
 # DATABASE ER DIAGRAM
 
-!()[https://github.com/julius-ingeli/team3-website/blob/main/imgs/dbscreenshot.png]
+![](https://github.com/julius-ingeli/team3-website/blob/main/imgs/dbscreenshot.png)
