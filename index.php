@@ -6,25 +6,6 @@
  include 'database.php';
 ?>
 <body>
-
-<form action="" method="post" name="form">
-  <!-- Inside the form, lets put some input fields. -->
-  <input name="name" type="text" placeholder="Your name"/>
-  <br>
-  <input name="email" type="text" placeholder="Email"/>
-  <br>
-  <input size="30" name="header" type="text" placeholder="Subject"/>
-  <br>
-  <textarea cols="32" name="message" rows="5" placeholder="Your message"></textarea>
-  <br>
-  <!-- Lets add a button that submits this form to the server. -->
-  <input type="submit" name="submit" value="Submit" />
-</form>
-<?php
-include 'feedback-mailer.php';
-?>
-
-
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
@@ -689,6 +670,18 @@ include 'feedback-mailer.php';
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
+
+    <form action="" method="post" name="form">
+  <!-- Inside the form, lets put some input fields. -->
+  <h3>Feedback</h3>
+  <input class="form-control form-control-sm" type="text" placeholder="Your Message" aria-label=".form-control-sm" name="comment">
+  <br>
+  <!-- Lets add a button that submits this form to the server. -->
+  <input type="submit" name="submit" value="Submit" />
+</form>
+<?php
+include 'feedback-mailer.php';
+?>
     <!-- Footer -->
 <?php
     include 'Footer.php';
