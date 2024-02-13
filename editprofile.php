@@ -84,7 +84,8 @@ function validateLname(){
 function validateEmail(){
     const email =document.getElementById("email").value;
     const emailError =document.getElementById("emailError");
-    if(!email.includes("@") || !email.includes(".")){
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailRegex.test(email)){
         emailError.innerHTML = "Email address invalid!";
         updbutton.disabled = true;
         delbutton.disabled = true;
@@ -164,7 +165,7 @@ if (isset($_POST['submit'])){
     if (isset($_POST['delete'])){
         $query = mysqli_query($conn,"DELETE FROM accountInfo where id='$a'");
         if($query){
-            echo "Record Deleted with id: $a <br>";
+            //echo "Record Deleted with id: $a <br>";
             // if you want to redirect to update page after updating
             //header("location: update.php");
         }
