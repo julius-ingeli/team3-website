@@ -1,14 +1,12 @@
-<?php
+<?php 
 // logon session info
-$servername = "web-dev-env-main-db-1";
-$username = "webDB";
-$password = "password";
-$dbname = "webDB";
+$dbServername = "web-dev-env-main-db-1";
+$dbUsername = "webDB";
+$dbPassword = "password";
+$dbName = "webDB";
 
-// establish connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// check connection
-if ($conn->connect_error) {
-	// Connection Failed: error msg (wrong username, pwd, ...)
-	die("Connection Failed: " . $conn->connect_error);
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+
+if (!$conn) {
+	die("Connection failed: " . mysqli_connect_error());
 }

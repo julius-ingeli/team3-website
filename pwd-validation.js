@@ -5,6 +5,8 @@ var pwdNums = document.getElementById("pwd-num");
 var pwdChars = document.getElementById("pwd-char");
 var pwdCompare = document.getElementById("pwd-verify");
 
+var btnSubmit = document.getElementById("submit");
+
 // clicking on the password field, show message box
 pwdInput.focus = function() {
 	document.getElementById("pwd-warning").style.display="block";
@@ -52,3 +54,9 @@ pwdInput.onkeyup = function() {
 		length.classList.remove("valid");
 		length.classList.add("invalid");
 	}
+
+	// btnSubmit.setAttribute("disabled",true);
+
+	// if (pwdCompare==pwdInput) {
+	// 	btnSubmit.removeAttribute("disabled");
+	// }
