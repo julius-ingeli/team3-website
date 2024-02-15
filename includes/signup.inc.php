@@ -1,8 +1,8 @@
 <?php 
 if (isset($_POST["submit"])) {
-	$name = $_POST["name"];
+	$fname = $_POST["fname"];
+	$lname = $_POST["lname"];
 	$email = $_POST["email"];
-	$uid = $_POST["uid"];
 	$pwd = $_POST["pwd"];
 	$pwdRepeat = $_POST["pwdRepeat"];
 
