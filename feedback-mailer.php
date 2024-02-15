@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
 	include 'database.php';
 	// insert data to db
 	$sql = "INSERT INTO feedback(comment)
-			VALUES ('$comment')";
+				VALUES ('$comment')";
 	// if query success
 	if ($conn->query($sql)==true) {
 		echo "Your feedback has been recorded successfully, Thank You!";

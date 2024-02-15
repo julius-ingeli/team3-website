@@ -678,6 +678,7 @@
   <br>
   <!-- Lets add a button that submits this form to the server. -->
   <input type="submit" name="submit" value="Submit" />
+  <button type="button" name="readComments" onclick="document.location='read.php'">Read Comments</button>
 </form>
 
 <script>
@@ -697,8 +698,6 @@ function validateComment() {
 
    }
    document.getElementById("comment").addEventListener("input", validateComment);
-
-
    </script>
 <?php
 include 'feedback-mailer.php';
