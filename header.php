@@ -13,7 +13,7 @@
 				<div class="row justify-content-between">
 					<!-- col for img/banner -->
 					<div class="col-md-4">
-						<a href="#home" class="d-flex align-items-center text-black text-decoration-none">
+						<a href="index.php#home" class="d-flex align-items-center text-black text-decoration-none">
 							<img class="img-fluid" src="imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
 						</a>
 					</div>
@@ -34,11 +34,11 @@
                         <div class="row position-relative d-flex align-items-end flex-column mb-4 nav-div">
                             <nav class="mb-auto p-2">
                                 <ul class="nav">
-                                    <li class="nav-item"><a href="#merch" class="nav-link text-black">Merchandise</a></li>
-                                    <li class="nav-item"><a href="#lineup" class="nav-link text-black">Line-up</a></li>
-                                    <li class="nav-item"><a href="#tickets" class="nav-link text-black">Tickets</a></li>
-                                    <li class="nav-item"><a href="#schedule" class="nav-link text-black">Schedule</a></li>
-                                    <li class="nav-item"><a href="#about" class="nav-link text-black">About</a></li>
+                                    <li class="nav-item"><a href="index.php#merch" class="nav-link text-black">Merchandise</a></li>
+                                    <li class="nav-item"><a href="index.php#lineup" class="nav-link text-black">Line-up</a></li>
+                                    <li class="nav-item"><a href="index.php#tickets" class="nav-link text-black">Tickets</a></li>
+                                    <li class="nav-item"><a href="index.php#schedule" class="nav-link text-black">Schedule</a></li>
+                                    <li class="nav-item"><a href="index.php#about" class="nav-link text-black">About</a></li>
                                 </ul>
                             </nav>
                         </div>
