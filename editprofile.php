@@ -148,29 +148,52 @@ document.getElementById("delete").addEventListener("click", deleteConf);
 
 <?php
 
+
+
 if (isset($_POST['submit'])){
     
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $email = $_POST['email'];
     $dob = $_POST['dob'];
-    $query = mysqli_query($conn,"UPDATE accountInfo set fname='$fname', lname='$lname', email='$email', dob='$dob' where id='$a'");
-    if($query){
-        echo "<h2>Your information is updated Successfully</h2>";
-        // if you want to redirect to update page after updating
-    }
-    else { echo "Record Not modified";}
-    }
 
-    if (isset($_POST['delete'])){
-        $query = mysqli_query($conn,"DELETE FROM accountInfo where id='$a'");
-        if($query){
-            //echo "Record Deleted with id: $a <br>";
+
+    //$query = mysqli_query($conn,"UPDATE accountInfo set fname='$fname', lname='$lname', email='$email', dob='$dob' where id='$a'");
+    $query = "UPDATE accountInfo set fname=?, lname=?, email=?, dob=? where id=?";
+    $stmt = $conn->prepare($query);
+
+    if (!$stmt) {
+        // Check if the prepare() method failed
+        echo "DEBUG: Error preparing statement: " . $conn->error;
+    }
+    else{
+        $stmt->bind_param("ssssi", $fname, $lname, $email, $dob, $a);
+        if($stmt->execute()){
+            echo "<h2>Your information is updated Successfully</h2>";
             // if you want to redirect to update page after updating
-            //header("location: update.php");
         }
-        else { echo "Record Not Deleted";}
+        else{
+            if($conn->errno == 1062){
+                echo "<h2>Email is already in use, please choose a different email<h2>";
+            }
+            else{
+                echo "<h2Record Not modified due to error:<h2>" . $conn->error;
+            }
         }
+    }
+    
+
+
+}
+
+if (isset($_POST['delete'])){
+    $query = mysqli_query($conn,"DELETE FROM accountInfo where id='$a'");
+    if($query){
+        echo "Account deleted!";
+    }
+    else { echo "Record Not Deleted";}
+}
+
 
 $conn->close();
 
