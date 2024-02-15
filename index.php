@@ -679,6 +679,27 @@
   <!-- Lets add a button that submits this form to the server. -->
   <input type="submit" name="submit" value="Submit" />
 </form>
+
+<script>
+function validateComment() {
+    const comment = document.getElementById("comment").value;
+
+    const commentError = document.getElementById("commentError");
+
+    if (comment < 7 || comment > 20) {
+        commentError.innerHTML = "Invalid comment"
+        return false;
+    }
+    else {
+        comment.innerHTML = ""
+        return true;
+    }
+
+   }
+   document.getElementById("comment").addEventListener("input", validateComment);
+
+
+   </script>
 <?php
 include 'feedback-mailer.php';
 ?>

@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 	// connecting to db server
 	include 'database.php';
 	// insert data to db
-	$sql = "INSERT INTO Feedback(comment)
+	$sql = "INSERT INTO feedback(comment)
 			VALUES ('$comment')";
 	// if query success
 	if ($conn->query($sql)==true) {
