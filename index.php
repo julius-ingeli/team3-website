@@ -686,7 +686,7 @@ function validateComment() {
 
     const commentError = document.getElementById("commentError");
 
-    if (comment < 7 || comment > 20) {
+    if (comment > 5000) {
         commentError.innerHTML = "Invalid comment"
         return false;
     }
