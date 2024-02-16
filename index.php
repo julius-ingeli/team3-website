@@ -668,6 +668,38 @@ include_once('./layout/header.php');
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
+
+    <form action="" method="post" name="form">
+  <!-- Inside the form, lets put some input fields. -->
+  <h3>Feedback</h3>
+  <input class="form-control form-control-sm" type="text" placeholder="Your Message" aria-label=".form-control-sm" name="comment">
+  <br>
+  <!-- Lets add a button that submits this form to the server. -->
+  <input type="submit" name="submit" value="Submit" />
+  <button type="button" name="readComments" onclick="document.location='read.php'">Read Comments</button>
+</form>
+
+<script>
+function validateComment() {
+    const comment = document.getElementById("comment").value;
+
+    const commentError = document.getElementById("commentError");
+
+    if (comment > 5000) {
+        commentError.innerHTML = "Invalid comment"
+        return false;
+    }
+    else {
+        comment.innerHTML = ""
+        return true;
+    }
+
+   }
+   document.getElementById("comment").addEventListener("input", validateComment);
+   </script>
+<?php
+include 'feedback-mailer.php';
+?>
     <!-- Footer -->
 <?php
     include_once ('./layout/footer.php');
