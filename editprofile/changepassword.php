@@ -1,7 +1,7 @@
 <?php
 $title = 'Change Password';
-include 'header.php';
-include 'db.php';
+include '../header.php';
+include '../db.php';
 $a = $_GET['id'];
 ?>
     <form name= 'form1' method='post' action=''>
@@ -49,7 +49,7 @@ $a = $_GET['id'];
             }
         }
         else{
-            passwdErr.innerHTML = 'Your password aint shit'
+            passwdErr.innerHTML = 'Your password must contain: Uppercase and lowecrase character, a number and a special character.'
             submit.disabled = true;
 
         }
@@ -103,5 +103,5 @@ if (isset($_POST['submit'])){
 
 }
 
-include 'footer.php';
+include '../footer.php';
 ?>

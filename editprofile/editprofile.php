@@ -1,7 +1,7 @@
 <?php
 $title = "Edit Profile";
-include_once "header.php";
-include "db.php";
+include_once "../header.php";
+include "../db.php";
 
 
 $a = $_GET['id'];
@@ -104,5 +104,5 @@ $conn->close();
 
 
 
-include "footer.php";
+include "../footer.php";
 ?>

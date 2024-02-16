@@ -1,7 +1,7 @@
 <?php
 $title = "Profile Database";
-include_once "header.php";
-include "db.php";
+include_once "../header.php";
+include "../db.php";
 
 
 echo "<style>
@@ -50,5 +50,5 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 
-include_once "footer.php";
+include_once "../footer.php";
 ?>
