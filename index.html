@@ -1,58 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jazz festival (placeholder) </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+
+<?php
+$title = "CCJJ Jazz festival";
+include_once('header.php');
+?>
 <body>
-    <!-- Header -->
-    <!-- https://getbootstrap.com/docs/5.0/examples/headers -->
-	<!-- you have comments for everything here (courtesy of me) so you can take it as inspiration -->
-	<div class="header" id="home">
-		<header style="background: #9E3E33;">
-			<div class="container-fluid">
-				<div class="row justify-content-between">
-					<!-- col for img/banner -->
-					<div class="col-md-4">
-						<a href="#home" class="d-flex align-items-center text-black text-decoration-none">
-							<img class="img-fluid" src="imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
-						</a>
-					</div>
-					<!-- col for content rows -->
-					<div class="col-md-4">
-						<!-- row for space -->
-						<div class="row" style="min-height: 17%;"></div>
-						<!-- row for social media -->
-						<div class="row justify-content-end">	
-							<span style="text-align: end; padding-right: 150px;">
-                                <a href=""><img src="imgs/twitter-x.svg" class="img-fluid" width="24px" height="24px"></a>
-                                <a href=""><img src="imgs/instagram.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
-                                <a href=""><img src="imgs/facebook.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
-                                <a href=""><img src="imgs/youtube.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
-                            </span>
-						</div>
-						<!-- row for navs -->
-                        <div class="row position-relative d-flex align-items-end flex-column mb-4 nav-div">
-                            <nav class="mb-auto p-2">
-                                <ul class="nav">
-                                    <li class="nav-item"><a href="#merch" class="nav-link text-black">Merchandise</a></li>
-                                    <li class="nav-item"><a href="#lineup" class="nav-link text-black">Line-up</a></li>
-                                    <li class="nav-item"><a href="#tickets" class="nav-link text-black">Tickets</a></li>
-                                    <li class="nav-item"><a href="#schedule" class="nav-link text-black">Schedule</a></li>
-                                    <li class="nav-item"><a href="#about" class="nav-link text-black">About</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-					</div>
-				<!-- main row, whole header -->
-				</div>
-			<!-- big container, whole header -->
-			</div>
-		</header>
-	</div>
     <div class="row filler-row-100">
         <!-- row for space -->
     </div>
@@ -288,7 +239,7 @@
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=1" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -315,7 +266,7 @@
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=2" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -343,7 +294,7 @@
                         <span><h2> 179€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 25%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=3" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
@@ -378,7 +329,7 @@
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=4" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -407,7 +358,7 @@
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=5" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -437,7 +388,7 @@
                         <span><h2> 359€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 11%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=6" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
@@ -718,74 +669,9 @@
         <!-- row for space -->
     </div>
     <!-- Footer -->
-    <footer style="background: #9E3E33; padding: 2rem 0;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="d-flex align-items-center text-black text-decoration-none">
-                        <img class="img-fluid" src="imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
-                    </a>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h5>Quick Links</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Merchandise</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Tickets</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Line-up</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Schedule</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <h5>Social Media</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a href="https://www.instagram.com/" target="_blank" class="nav-link text-black d-flex align-items-center gap-2">
-                                        <i class="bi bi-instagram"></i> Instagram
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://twitter.com/" target="_blank" class="nav-link text-black d-flex align-items-center gap-2">
-                                        <i class="bi bi-twitter"></i> Twitter
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://www.facebook.com/" target="_blank" class="nav-link text-black d-flex align-items-center gap-2">
-                                        <i class="bi bi-facebook"></i> Facebook
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://www.youtube.com/" target="_blank" class="nav-link text-black d-flex align-items-center gap-2">
-                                        <i class="bi bi-youtube"></i> YouTube
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <h5>Legal</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Ticket Terms</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Terms of Use</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Partners</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Web Accessibility</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-black">Health and safety</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="text-white">&copy; Crescent City Jazz Jam. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php
+    include 'Footer.php';
+?>
 
 
 <!-- if you want h1 just put it as h2 and add class h1 -> <h2 class="h1"></h2 if you want rows for space use class .filler-row-10/25/50/100/150 (see style.css) in addition with bootsrap's row-->
