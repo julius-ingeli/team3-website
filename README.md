@@ -1,9 +1,13 @@
 # PROJECT DEFINITION
 Website is a page for a jazz festival. The webpage features a home page, events/panels/etc.
 tickets, merch sales, about section and so on.  
+Website is a page for a jazz festival. The webpage features a home page, events/panels/etc.
+tickets, merch sales, about section and so on.  
 
 The target audience should be the attendees to the festival/artists that would like to perform there.  
+The target audience should be the attendees to the festival/artists that would like to perform there.  
 
+Color palette: Coffee brown, Cream, Beige,  
 Color palette: Coffee brown, Cream, Beige,  
 
 Teamwork practices: Hybrid, sometimes online, sometimes on campus.
