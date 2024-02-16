@@ -13,7 +13,7 @@ Teamwork practices: Hybrid, sometimes online, sometimes on campus.
 ## FEATURES
 - [ ] Feature 1 (Filip Danko): Ticket purchase page
 - [ ] Feature 2 (Mohammed Bin Semaidaa): User Feedback
-- [ ] Feature 3 (Julius Ingeli): User Profile
+- [ ] Feature 3 (Julius Ingeli): User Profile Editing, Password Ediitng, Admin Console
 - [ ] Feature 4 (Oskar Elias): Login and Signup pages
 
 ### FEATURE 1
