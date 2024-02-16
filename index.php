@@ -1,7 +1,7 @@
 
 <?php
 $title = "CCJJ Jazz festival";
-include_once('header.php');
+include_once('./layout/header.php');
 ?>
 <body>
     <div class="row filler-row-100">
@@ -670,7 +670,7 @@ include_once('header.php');
     </div>
     <!-- Footer -->
 <?php
-    include 'Footer.php';
+    include_once ('./layout/footer.php');
 ?>
 
 
