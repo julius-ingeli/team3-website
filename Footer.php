@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <a href="#" class="d-flex align-items-center text-black text-decoration-none">
-                        <img class="img-fluid" src="imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
+                        <img class="img-fluid" src="../imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
                     </a>
                 </div>
                 <div class="col-md-8">

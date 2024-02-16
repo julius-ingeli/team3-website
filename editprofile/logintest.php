@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     // Start session and store user ID
     if($user_id){
         $_SESSION['id'] = $user_id;
-        $url= "editprofile.php?id=".$user_id;
+        $url= "index.php?id=".$user_id;
         echo $user_id;
         echo "<script>window.location.href = '$url' ;</script>";
         exit();

@@ -3,7 +3,6 @@ $title = "Edit Profile";
 include_once "../header.php";
 include "../db.php";
 
-
 $a = $_GET['id'];
 if($a == 1){
     echo "<button type='button' class='btn btn-warning'><a href='seealldata.php' style='color:black; text-decoration: none'>See all user data here</a></button>";
@@ -48,7 +47,7 @@ $row= mysqli_fetch_array($result);
 
 <button class="btn btn-warning" id="chngpasswd" name="chngpasswd"><a href="changepassword.php?id=<?php echo $a?>" style = "color:black;text-decoration:none">Change Password</a></button>
 <!-- validation script -->
-<script src="validation.js"></script>
+<script src="../validation.js"></script>
 
 
 <?php

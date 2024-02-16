@@ -49,7 +49,7 @@ $a = $_GET['id'];
             }
         }
         else{
-            passwdErr.innerHTML = 'Your password must contain: Uppercase and lowecrase character, a number and a special character.'
+            passwdErr.innerHTML = 'Your password must be atleast 8 characters long and contain: Uppercase and lowecrase character, a number and a special character.'
             submit.disabled = true;
 
         }

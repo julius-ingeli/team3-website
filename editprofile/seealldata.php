@@ -31,7 +31,7 @@ if ($result->num_rows > 0) {
 
     // Loop through the result set and display data in rows
     while ($row = $result->fetch_assoc()) {
-        $url= "editprofile.php?id=".$row['id'];
+        $url= "index.php?id=".$row['id'];
         echo "<tr>
                 <td><a href =$url>{$row['id']}</a></td>
                 <td>{$row['fname']}</td>
