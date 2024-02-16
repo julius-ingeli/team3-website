@@ -5,8 +5,10 @@ if (isset($_POST['submit'])) {
 	$email = $_POST['email'];
 	$pwd = $_POST['pwd'];
 	$dob = $_POST['dob'];
-	include 'conn.php';
+
+	// include 'conn.php';
 	$result=true;
+
 	$sql = "INSERT INTO accountInfo(fname,lname,email,passwd,dob) VALUES(?,?,?,?,?);";
 	// initializing prepared statement
 	$stmt = mysqli_stmt_init($conn);
@@ -28,4 +30,6 @@ if (isset($_POST['submit'])) {
 	mysqli_stmt_execute($stmt);
 	mysqli_stmt_close($stmt);
 exit();
+} else {
+	echo "nejde to";
 }

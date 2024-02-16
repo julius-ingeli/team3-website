@@ -10,28 +10,29 @@ include_once './layout/header.php';
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<form action="" method="post">
-				<input type="text" class="form-control" name="fname" placeholder="First Name">
-				<input type="text" class="form-control" name="lname" placeholder="Second Name">
-				<input type="text" class="form-control" name="email" placeholder="Email">
+				<form action="./db/process.php" method="post">
+				<input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
+				<input type="text" class="form-control" name="lname" id="lname" placeholder="Second Name">
+				<input type="text" class="form-control" name="email" id="email" placeholder="Email">
 			</div>
 			<div class="col">
-				<input type="date" class="form-control" name="dob">
-				<input type="password" class="form-control" name="pwd" placeholder="Password">
-				<input type="password" class="form-control" name="pwdRepeat" placeholder="Repeat Password">
+				<input type="date" class="form-control" name="dob" id="dob">
+				<input type="password" class="form-control" name="pwd" id="pwd" placeholder="Password">
+				<input type="password" class="form-control" name="pwdRepeat" id="pwd" placeholder="Repeat Password">
 				</form>
 			</div>
 		</div>
 		<div class="row">
-			<button type="submit" class="btn btn-primary" name="submit">Sign Up</button>
+			<button type="submit" class="btn btn-primary" name="submit" class="submit" id="submit">Sign Up</button>
 			<?php 
-			// if (isset($_POST['submit'])) { 
-			// 	$fname=$_POST['fname'];
-			// 	$fname=$_POST['lname'];
-			// 	$fname=$_POST['email'];
-			// 	$fname=$_POST['pwd'];
-			// 	createUser($conn,$fname,$lname,$email,$pwd);
-			// }
+			if (isset($_POST['submit'])) { 
+				// $fname=$_POST['fname'];
+				// $fname=$_POST['lname'];
+				// $fname=$_POST['email'];
+				// $fname=$_POST['pwd'];
+				// createUser($conn,$fname,$lname,$email,$pwd);
+				mysqli_stmt_prepare($stmt,$sql);
+			}
 			?>
 		</div>
 		<div class="row">
