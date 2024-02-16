@@ -239,7 +239,7 @@ include_once('header.php');
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=1" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=1&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -266,7 +266,7 @@ include_once('header.php');
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=2" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=2&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -294,7 +294,7 @@ include_once('header.php');
                         <span><h2> 179€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 25%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=3" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=3&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@ include_once('header.php');
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=4" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=4&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -358,7 +358,7 @@ include_once('header.php');
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=5" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=5&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -388,7 +388,7 @@ include_once('header.php');
                         <span><h2> 359€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 11%; margin: 2.5px 2.5px;">
-                        <a href="ticketPurchase.php?tier=6" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=6&id=<?php echo $a?>" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
