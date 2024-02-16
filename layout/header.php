@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazz festival</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <div class="header" id="home">
 		<header style="background: #9E3E33;">
@@ -12,7 +12,7 @@
 					<!-- col for img/banner -->
 					<div class="col-md-4">
 						<a href="#home" class="d-flex align-items-center text-black text-decoration-none">
-							<img class="img-fluid" src="imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
+							<img class="img-fluid" src="./imgs/logo.jpg" alt="Festival logo" width="80%" height="80%">
 						</a>
 					</div>
 					<!-- col for content rows -->
@@ -22,10 +22,10 @@
 						<!-- row for social media -->
 						<div class="row justify-content-end">	
 							<span style="text-align: end; padding-right: 150px;">
-                                <a href=""><img src="imgs/twitter-x.svg" class="img-fluid" width="24px" height="24px"></a>
-                                <a href=""><img src="imgs/instagram.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
-                                <a href=""><img src="imgs/facebook.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
-                                <a href=""><img src="imgs/youtube.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
+                                <a href=""><img src="./imgs/twitter-x.svg" class="img-fluid" width="24px" height="24px"></a>
+                                <a href=""><img src="./imgs/instagram.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
+                                <a href=""><img src="./imgs/facebook.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
+                                <a href=""><img src="./imgs/youtube.svg" class="img-fluid" width="24px" height="24px" style="margin-left: 5px;"></a>
                             </span>
 						</div>
 						<!-- row for navs -->

@@ -59,7 +59,7 @@ include_once './layout/header.php';
 		?>
 	</section>
 	<?php 
-	include_once './db/conn.php';
+	include_once './db.php';
 	include_once './db/process.php';
 	include_once './layout/footer.php';
 	?>
