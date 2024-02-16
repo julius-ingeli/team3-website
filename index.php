@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <!-- Header -->
+
 <?php
+$title = "CCJJ Jazz festival";
 include_once('header.php');
 ?>
 <body>
@@ -240,7 +239,7 @@ include_once('header.php');
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=1" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -267,7 +266,7 @@ include_once('header.php');
                         <span><h2> 99€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 30%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=2" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -295,7 +294,7 @@ include_once('header.php');
                         <span><h2> 179€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 25%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=3" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
@@ -330,7 +329,7 @@ include_once('header.php');
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=4" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -359,7 +358,7 @@ include_once('header.php');
                         <span><h2> 199€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 16%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=5" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
                 <div class="ticket col-md-3 offset-md-1">
@@ -389,7 +388,7 @@ include_once('header.php');
                         <span><h2> 359€ </h2></span>
                     </div>
                     <div style="position: relative; transform: translateY(-50%); transform: translateX(-50%); left: 50%; width: 50%; text-align: center; top: 11%; margin: 2.5px 2.5px;">
-                        <a href="#" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
+                        <a href="ticketPurchase.php?tier=6" target="_blank" class="nav-link"><h2 class="order-button"> Order </h2></a>
                     </div>
                 </div>
             </div>
@@ -673,9 +672,6 @@ include_once('header.php');
 <?php
     include 'Footer.php';
 ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
 
 
 <!-- if you want h1 just put it as h2 and add class h1 -> <h2 class="h1"></h2 if you want rows for space use class .filler-row-10/25/50/100/150 (see style.css) in addition with bootsrap's row-->
