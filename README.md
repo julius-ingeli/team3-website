@@ -1,9 +1,13 @@
 # PROJECT DEFINITION
 Website is a page for a jazz festival. The webpage features a home page, events/panels/etc.
 tickets, merch sales, about section and so on.  
+Website is a page for a jazz festival. The webpage features a home page, events/panels/etc.
+tickets, merch sales, about section and so on.  
 
 The target audience should be the attendees to the festival/artists that would like to perform there.  
+The target audience should be the attendees to the festival/artists that would like to perform there.  
 
+Color palette: Coffee brown, Cream, Beige,  
 Color palette: Coffee brown, Cream, Beige,  
 
 Teamwork practices: Hybrid, sometimes online, sometimes on campus.
@@ -13,7 +17,7 @@ Teamwork practices: Hybrid, sometimes online, sometimes on campus.
 ## FEATURES
 - [ ] Feature 1 (Filip Danko): Ticket purchase page
 - [ ] Feature 2 (Mohammed Bin Semaidaa): User Feedback
-- [ ] Feature 3 (Julius Ingeli): User Profile
+- [ ] Feature 3 (Julius Ingeli): User Profile Editing, Password Ediitng, Admin Console
 - [ ] Feature 4 (Oskar Elias): Login and Signup pages
 
 ### FEATURE 1
@@ -53,3 +57,8 @@ Shows up on user profile, carrying information about recent purchases (tickets, 
 Carries user information with option for empty spaces where user didn't prompt. These can be updated on User Profile.
 - Table 3 (Mohammed Bin Semaidaa): User Feedback Table | github link | shell link  
 Stores user information if signed-in, otherwise just comments and ID.
+
+
+# DATABASE ER DIAGRAM
+
+![](https://github.com/julius-ingeli/team3-website/blob/main/imgs/dbscreenshot.png)
